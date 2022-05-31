@@ -7,6 +7,7 @@ const App = () => {
         Simple Dimple Popit
         <ul>
             <li>Один</li>
+            <li>Два</li>
         </ul>
     </div>
   );
