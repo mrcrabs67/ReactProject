@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header.js'
+import Technologies from './components/Technologies.js'
 
 const App = () => {
     return (
@@ -16,28 +18,6 @@ const App = () => {
             </div>
 
             <Technologies />
-        </div>
-    );
-}
-
-const Header = () => {
-    return (
-        <div>
-            <a href= '#s'>Home</a>
-            <a href= '#s'>News Feed</a>
-            <a href= '#'>Messages</a>
-        </div>
-    );
-}
-
-const Technologies = () => {
-    return (
-        <div>
-            <ul>
-                <li>html</li>
-                <li>css</li>
-                <li>js</li>
-            </ul>
         </div>
     );
 }
