@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header.js'
 import Technologies from './components/Technologies.js'
+import Footer from './components/Footer.js'
 
 const App = () => {
     return (
@@ -18,6 +19,8 @@ const App = () => {
             </div>
 
             <Technologies />
+
+            <Footer />
         </div>
     );
 }
