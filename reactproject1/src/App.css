@@ -1,2 +1,38 @@
-ul li {
-list-style-type: decimal-leading-zero}
+.app-wrapper
+{
+    display: grid;
+    width: 1200px;
+    margin: 0 auto;
+
+    grid-template-areas:
+    "header header"
+    "nav content";
+
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    /*grid-gap: 10px;*/
+}
+
+
+.header
+{
+    grid-area: header;
+    background-color: deepskyblue;
+}
+
+.nav
+{
+    background-color: lightgrey;
+}
+
+.content
+{
+    background-color: white;
+}
+
+.content img
+{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+}
